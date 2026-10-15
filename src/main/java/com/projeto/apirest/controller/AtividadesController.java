@@ -15,6 +15,8 @@ import com.projeto.apirest.service.AtividadesService;
 @RequestMapping("/atividades")
 public class AtividadesController {
 
+    private AtividadesService atividadesService;
+
     public AtividadesController(AtividadesService atividadesService) {
         this.atividadesService = atividadesService;
     }
